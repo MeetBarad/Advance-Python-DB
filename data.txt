@@ -1,0 +1,4 @@
+1,ab,abc
+2,aba,abc
+3,aba,abcab
+4,ab,abc
