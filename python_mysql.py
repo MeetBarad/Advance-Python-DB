@@ -20,7 +20,7 @@ def insert_recorde():
     else:
         cnn=sq.connect(host="localhost",user="root",password="",database="test")
         cursor=cnn.cursor()
-        cursor.execute("insert into data(name,price)values(%s,%s)",(nm,pr))
+        cursor.exeocute("insert into data(name,price)values(%s,%s)",(nm,pr))
         messagebox.showinfo("Sucess","Record Inserted!")
         t1.insert("",END,values=(cursor.lastrowid,nm,pr))
         cnn.commit()
